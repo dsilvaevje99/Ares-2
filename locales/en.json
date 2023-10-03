@@ -1,4 +1,11 @@
 {
   "search-label": "Page search",
-  "translate-page": "Vis siden på norsk"
+  "translate-page": "Vis siden på norsk",
+  "home-title": "Home",
+  "board-title": "Board members",
+  "contact-title": "Contact",
+  "faq-title": "FAQ",
+  "prices-title": "Prices",
+  "register-title": "How to register",
+  "schedule-title": "Schedule"
 }

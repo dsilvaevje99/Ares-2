@@ -2,11 +2,11 @@
   <nav class="flex flex-col pl-20 pr-10 pt-6">
     <NuxtLink
       v-for="item in navLinks"
-      :key="item.label + locale"
+      :key="item.label"
       :to="localePath(item.route, locale)"
       class="rounded-md p-2 px-3 mb-1 hover:bg-grey text-lg"
       exact-active-class="bg-primary hover:bg-primary text-white"
-      >{{ item.label }}</NuxtLink
+      >{{ $t(item.label) }}</NuxtLink
     >
   </nav>
 </template>
@@ -17,31 +17,31 @@ const localePath = useLocalePath();
 
 const navLinks = [
   {
-    label: "Forsiden",
+    label: "home-title",
     route: "/",
   },
   {
-    label: "Påmelding",
+    label: "register-title",
     route: "/pamelding",
   },
   {
-    label: "Priser",
+    label: "prices-title",
     route: "/priser",
   },
   {
-    label: "Treningstider",
+    label: "schedule-title",
     route: "/treningstider",
   },
   {
-    label: "Styret i Ares",
+    label: "board-title",
     route: "/styret",
   },
   {
-    label: "Ofte stilte spørsmål",
+    label: "faq-title",
     route: "/ofte-stilte-sporsmal",
   },
   {
-    label: "Kontakt",
+    label: "contact-title",
     route: "/kontakt",
   },
 ];

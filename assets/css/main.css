@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+@layer base {
   h1 {
     @apply text-3xl text-center;
+  }
+}
+
+@layer components {
+  .router-link-active:hover {
+    background-color: initial;
   }
 }
