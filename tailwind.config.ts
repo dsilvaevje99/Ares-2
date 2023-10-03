@@ -16,6 +16,7 @@ module.exports = {
     textColor: {
       primary: "#272727",
       secondary: "rgba(39,39,39,0.75)",
+      tertiary: "rgba(255,255,255,0.75)",
       white: "#FFF",
       black: "#000",
     },

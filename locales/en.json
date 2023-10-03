@@ -1,11 +1,16 @@
 {
-  "search-label": "Page search",
-  "translate-page": "Vis siden på norsk",
-  "home-title": "Home",
   "board-title": "Board members",
   "contact-title": "Contact",
   "faq-title": "FAQ",
+  "footer-admin-login-link": "Admin login",
+  "footer-first-time-member-link": "Becoming a member for the first time",
+  "footer-how-to-register-link": "How to register",
+  "footer-price-calculator-link": "Price calculator",
+  "footer-register-link": "Problems when registering",
+  "home-title": "Home",
   "prices-title": "Prices",
   "register-title": "How to register",
-  "schedule-title": "Schedule"
+  "schedule-title": "Schedule",
+  "search-label": "Page search",
+  "translate-page": "Vis siden på norsk"
 }

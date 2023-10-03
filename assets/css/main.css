@@ -6,6 +6,10 @@
   h1 {
     @apply text-3xl text-center;
   }
+
+  footer a {
+    text-decoration: underline;
+  }
 }
 
 @layer components {

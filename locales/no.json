@@ -1,11 +1,16 @@
 {
-  "search-label": "Søk på hele siden",
-  "translate-page": "Show page in english",
-  "home-title": "Forsiden",
   "board-title": "Styret i Ares",
   "contact-title": "Kontakt",
   "faq-title": "Ofte stilte spørsmål",
+  "footer-admin-login-link": "Admin login",
+  "footer-first-time-member-link": "Bli medlem for første gang",
+  "footer-how-to-register-link": "Fremgangsmåte for påmelding",
+  "footer-price-calculator-link": "Priskalkulator",
+  "footer-register-link": "Problemer med påmelding",
+  "home-title": "Forsiden",
   "prices-title": "Priser",
   "register-title": "Påmelding",
-  "schedule-title": "Treningstider"
+  "schedule-title": "Treningstider",
+  "search-label": "Søk på hele siden",
+  "translate-page": "Show page in english"
 }
