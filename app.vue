@@ -9,7 +9,8 @@
         <Navigation />
       </div>
       <div class="flex-auto w-6/12">
-        <NuxtPage />
+        <NoPageContent v-if="store.fetchFailed" />
+        <NuxtPage v-else />
       </div>
       <div class="flex-auto w-3/12"></div>
     </div>
@@ -17,4 +18,8 @@
   <Footer />
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useContentStore } from "./stores/content";
+
+const store = useContentStore();
+</script>

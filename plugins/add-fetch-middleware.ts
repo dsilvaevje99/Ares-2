@@ -8,6 +8,9 @@ export default defineNuxtPlugin(({ vueApp }) => {
   addRouteMiddleware(
     "fetch-data",
     (to) => {
+      // Reset fetchFailed flag to try loading page content again
+      store.fetchFailed = false;
+
       const foundName = to.name?.toString().split("__")[0];
       const pageName = foundName === "index" ? "home" : foundName;
       const contentIsEmpty =

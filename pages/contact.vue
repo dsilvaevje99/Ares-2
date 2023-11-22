@@ -3,7 +3,11 @@
     :page="store.contactPage"
     :locale="localeConfig.currLocale"
     tinymce-enabled
-  />
+  >
+    <template #no-content>
+      <LoadingSpinner />
+    </template>
+  </PageTiles>
 </template>
 
 <script setup lang="ts">
