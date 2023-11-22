@@ -30,10 +30,10 @@ defineProps({
   box-sizing: border-box;
   display: block;
   position: absolute;
-  width: 64px;
-  height: 64px;
-  margin: 8px;
-  border: 8px solid #0d5eaf;
+  width: 55px;
+  height: 55px;
+  margin: 6px;
+  border: 6px solid #0d5eaf;
   border-radius: 50%;
   animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
   border-color: #0d5eaf transparent transparent transparent;
