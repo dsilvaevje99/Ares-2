@@ -8,22 +8,23 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
-    colors: {
-      primary: "#0D5EAF",
-      grey: "rgba(39,39,39,0.1)",
-      warning: "#FFF2C3",
-    },
-    textColor: {
-      primary: "#272727",
-      secondary: "rgba(39,39,39,0.75)",
-      tertiary: "rgba(255,255,255,0.75)",
-      white: "#FFF",
-      black: "#000",
-    },
     fontFamily: {
       sans: ["Poppins", "ui-sans-serif", "system-ui"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#0D5EAF",
+        grey: "rgba(39,39,39,0.1)",
+        warning: "#FFF2C3",
+      },
+      textColor: {
+        primary: "#272727",
+        secondary: "rgba(39,39,39,0.75)",
+        tertiary: "rgba(255,255,255,0.75)",
+        white: "#FFF",
+        black: "#000",
+      },
+    },
   },
   plugins: [],
 };
