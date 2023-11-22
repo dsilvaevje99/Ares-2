@@ -14,13 +14,6 @@ export default defineNuxtPlugin(({ vueApp }) => {
         (store[`${pageName}Page` as keyof ContentStoreSGA] as PageContent)
           .content.length === 0;
 
-      console.log("MIDDLEWARE PAGE: ", pageName);
-      console.log(
-        "MIDDLEWARE CONTENT: ",
-        (store[`${pageName}Page` as keyof ContentStoreSGA] as PageContent)
-          .content
-      );
-
       if (pageName && contentIsEmpty) {
         store.fetchPageContent(pageName);
       }
