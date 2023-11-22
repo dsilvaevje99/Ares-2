@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
   modules: [
+    "@pinia/nuxt",
     [
       "@nuxtjs/i18n",
       {
@@ -76,6 +77,12 @@ export default defineNuxtConfig({
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
+    },
+  },
+  runtimeConfig: {
+    public: {
+      TINYMCE_API_KEY: process.env.NUXT_TINYMCE_API_KEY,
+      DB_PASSWORD: process.env.NUXT_DB_PASSWORD,
     },
   },
 });
