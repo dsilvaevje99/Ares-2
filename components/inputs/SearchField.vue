@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div class="max-lg:w-20 invisible lg:visible">
     <label
       for="page-search"
       class="sr-only block text-sm font-medium leading-6 text-gray-900"
       >{{ $t("search-label") }}</label
     >
-    <div class="relative mt-2 rounded-md shadow-sm">
+    <div class="relative rounded-md shadow-sm">
       <div
         class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
       >

@@ -73,6 +73,12 @@ export default defineNuxtConfig({
       },
     ],
   ],
+  components: [
+    {
+      path: "~/components",
+      pathPrefix: false,
+    },
+  ],
   postcss: {
     plugins: {
       tailwindcss: {},
